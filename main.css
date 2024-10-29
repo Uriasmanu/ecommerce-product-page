@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Define variáveis de cores */
+:root {
+  --color-very-dark-blue: hsl(220, 13%, 13%);
+  --color-dark-grayish-blue: hsl(219, 9%, 45%);
+  --color-grayish-blue: hsl(220, 14%, 75%);
+  --color-light-grayish-blue: hsl(223, 64%, 98%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-black-lightbox: hsla(0, 0%, 0%, 0.75); /* 75% de opacidade */
+}
+
+/* Reset básico e estilo global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+}/*# sourceMappingURL=main.css.map */
