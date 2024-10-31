@@ -6,6 +6,8 @@
     --color-light-grayish-blue: hsl(223, 64%, 98%);
     --color-white: hsl(0, 0%, 100%);
     --color-black-lightbox: hsla(0, 0%, 0%, 0.75); /* 75% de opacidade */
+    --orange: hsl(26, 100%, 55%);
+    --pale-orange: hsl(25, 100%, 94%);
 }
 
 /* Reset básico e estilo global */
@@ -15,5 +17,6 @@
     box-sizing: border-box;
     font-family: "Kumbh Sans", sans-serif;
     font-style: normal;
+    list-style: none;
 }
 

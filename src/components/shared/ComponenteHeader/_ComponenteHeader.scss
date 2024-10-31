@@ -1,0 +1,64 @@
+@import "../../../../main.scss";
+
+nav {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: solid 2px var(--color-grayish-blue);
+  justify-content: space-between;
+  height: 8vh;
+
+  .cabecalho {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+
+
+    h1 {
+      border-bottom: solid 2px transparent;
+      height: auto;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    ul {
+      display: flex;
+      border-bottom: solid 2px transparent;
+      height: 100%;
+      gap: 35px;
+      padding-top: 2%;
+
+      li {
+        display: flex;
+        color: var(--color-dark-grayish-blue);
+        font-weight: bold;
+        height: 100%;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .usuario-carrinho {
+    border-bottom: solid 2px transparent;
+    display: flex;
+    height: auto;
+    align-items: flex-start;
+    gap: 40px;
+
+    .carrinho-usuario {
+      display: flex;
+      height: 100%;
+      gap: 40px;
+      align-items: center;
+
+      .usuario {
+        height: 75%;
+
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+}
