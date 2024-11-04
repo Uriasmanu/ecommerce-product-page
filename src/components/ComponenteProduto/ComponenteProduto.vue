@@ -1,6 +1,6 @@
 <template>
     <div class="container-produto">
-        <img :src="fotoProduto1" alt="imagem do produto">
+        <img :src="fotoProduto1" alt="imagem do produto" class="produto">
         <ul>
             <li class="img">
                 <img :src="fotoProduto1Tamb" alt="miniatura do produto">
