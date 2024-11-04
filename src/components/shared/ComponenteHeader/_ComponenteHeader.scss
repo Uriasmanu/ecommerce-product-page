@@ -54,9 +54,16 @@ nav {
 
       .usuario {
         height: 75%;
+        cursor: pointer;
+        border: 3px solid transparent;
+        border-radius: 100%;
 
         img {
           height: 100%;
+        }
+
+        &:hover{
+          border: 3px solid var(--orange);
         }
       }
     }
