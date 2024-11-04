@@ -3,6 +3,10 @@
         <header>
             <ComponenteHeader/>
         </header>
+
+        <main>
+
+        </main>
   
     </div>
 </template>
