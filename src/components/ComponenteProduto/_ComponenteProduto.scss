@@ -1,6 +1,10 @@
 @import '../../../main.scss';
 
 .container-produto{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+
     .produto {
         width: 30rem;
         border-radius: 25px;
