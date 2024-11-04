@@ -1,9 +1,9 @@
 <template>
     <nav>
         <div class="cabecalho">
-            <h1>sneakers</h1>
+            <h1>tênis</h1>
             <ul>
-                <li v-for="(item, index) in ['Collections', 'Men', 'Women', 'About', 'Contact']" :key="index"
+                <li v-for="(item, index) in ['Coleções', 'Masculino', 'Feminino', 'Sobre', 'Contato']" :key="index"
                     @click="selectItem(index)" :class="{ active: selectedItem === index }">
                     {{ item }}
                 </li>
@@ -12,10 +12,10 @@
         <div class="usuario-carrinho">
             <div class="carrinho-usuario">
                 <div class="carrinho">
-                    <img :src="iconeCarrinho" alt="icone-carrinho">
+                    <img :src="iconeCarrinho" alt="ícone do carrinho">
                 </div>
                 <div class="usuario">
-                    <img :src="imagemUsuario" alt="imagem-usuario">
+                    <img :src="imagemUsuario" alt="imagem do usuário">
                 </div>
             </div>
         </div>
